@@ -24,3 +24,4 @@ La **investigación financiera** y la **aplicación práctica de la matemática*
 🔗 **Conéctate conmigo:**
 
 [![Kaggle](4519136_kaggle_icon.png)](https://www.kaggle.com/miguelangelmurillo)
+[![LinkedIn](317725_linkedin_social_icon.png)](https://www.linkedin.com/in/miguel-angel-murillo-frias-66baaa244)
