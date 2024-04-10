@@ -14,10 +14,12 @@ Como **Sherlock Holmes** extraía detalles valiosos para resolver misterios, me 
 La **investigación financiera** y la **aplicación práctica de la matemática** en el mundo real son mi fuerte.
 
 ### 🛠 Habilidades Técnicas
+- **Excel** Hojas de Calculo
 - **R y Python:** Programación y análisis de datos.
+- **SLQ** Analisis y diseño de bases de datos.
 - **Estadística:** Inferencial y Multivariada.
 - **Machine Learning:** Construcción de modelos predictivos.
-- **Visualización de Datos:** Expertise en **Tableau** y **Power BI**.
+- **Visualización de Datos:** Expertise en **Tableau**, **Power BI**, **D3.js**.
 
 ---
 
