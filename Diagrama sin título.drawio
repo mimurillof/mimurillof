@@ -1,169 +1,183 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T14:36:04.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="njvDbpEuYi36n0dShcx3" version="24.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T03:05:24.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="kLEQuLC9PsBVUKNHzLPa" version="24.7.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1886" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value=" Software de Análisis Financiero y Predicción" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-150" width="1570" height="960" as="geometry" />
+          <mxGeometry x="50" y="-760" width="1290" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="Datos" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-2" value="Cliente" style="swimlane;html=1;startSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-12" value="Recopilación de datos financieros históricos y actuales de la empresa (bonos, acciones, etc.)." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="77e6c97f196da883-12" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;ES&quot;&gt;Introduccion de datos Financieros sobre&lt;br&gt;cartera &amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="25" y="160" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-3" value="Fuente de Datos" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-2">
-          <mxGeometry x="35" y="30" width="90" height="70" as="geometry" />
+        <mxCell id="at66AapSgeLtblogLSVe-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-2" vertex="1">
+          <mxGeometry x="20" y="40" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="77e6c97f196da883-2" source="at66AapSgeLtblogLSVe-3" target="77e6c97f196da883-12">
+        <mxCell id="at66AapSgeLtblogLSVe-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-2" source="at66AapSgeLtblogLSVe-1" target="77e6c97f196da883-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-10" y="210" as="sourcePoint" />
-            <mxPoint x="40" y="160" as="targetPoint" />
+            <mxPoint x="-10" y="400" as="sourcePoint" />
+            <mxPoint x="40" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="Preprocesamiento de Datos" style="swimlane;html=1;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-16" value="Generacion de reporte para el cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="77e6c97f196da883-2">
+          <mxGeometry x="10" y="570" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" value="Ingenieria de Datos" style="swimlane;html=1;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-10" value="Limpieza y normalización de los datos." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-1" value="Datos OK" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="40" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="77e6c97f196da883-3" source="77e6c97f196da883-10" target="Y9lodNZrgHMY1zMylVd2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-10" value="Verificación de los daros" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="28.75" y="160" width="102.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="Y9lodNZrgHMY1zMylVd2-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="77e6c97f196da883-3" source="Y9lodNZrgHMY1zMylVd2-8" target="Y9lodNZrgHMY1zMylVd2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-8" value="Limpieza, normalización y preparación de los datos para el análisis." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="10.5" y="440" width="139" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="77e6c97f196da883-3" source="Y9lodNZrgHMY1zMylVd2-1" target="Y9lodNZrgHMY1zMylVd2-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="71" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Análisis Financiero Básico" style="swimlane;html=1;startSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="200" height="940" as="geometry" />
         </mxCell>
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="77e6c97f196da883-4" source="77e6c97f196da883-15" target="at66AapSgeLtblogLSVe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-15" value="Cálculo de indicadores financieros básicos: medias móviles (SMA, EMA), volatilidad, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-4" vertex="1">
-          <mxGeometry x="45" y="160" width="110" height="70" as="geometry" />
+          <mxGeometry x="60" y="150" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-10" value="Generación de estadísticas descriptivas." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="52.5" y="250" width="95" height="60" as="geometry" />
+        <mxCell id="at66AapSgeLtblogLSVe-10" value="Generación de estadísticas descriptivas." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-4" vertex="1">
+          <mxGeometry x="67.5" y="270" width="95" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-6" value="Cálculo de Características Avanzadas" style="swimlane;html=1;startSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-6" value="Ciencia de Datos" style="swimlane;html=1;startSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="520" y="20" width="240" height="940" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-18" value="Creación de nuevas características para los modelos ML: ratios financieros, tendencias, factores macroeconómicos." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#bac8d3;strokeColor=#23445d;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="60" y="160" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-19" value="Selección de características relevantes" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="77e6c97f196da883-6">
+        <mxCell id="at66AapSgeLtblogLSVe-19" value="Selección de características relevantes" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="60" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="77e6c97f196da883-6" source="77e6c97f196da883-18" target="at66AapSgeLtblogLSVe-19">
+        <mxCell id="at66AapSgeLtblogLSVe-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-6" source="77e6c97f196da883-18" target="at66AapSgeLtblogLSVe-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-130" y="220" as="sourcePoint" />
             <mxPoint x="-80" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-12" target="77e6c97f196da883-10">
+        <mxCell id="at66AapSgeLtblogLSVe-23" value="Entrenamiento de modelos predictivos: regresión, redes neuronales, árboles de decisión." style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="50" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="77e6c97f196da883-6" source="at66AapSgeLtblogLSVe-19" target="at66AapSgeLtblogLSVe-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-25" value="Validación y evaluación de modelos (cross-validation, metrics)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="60" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-6" source="at66AapSgeLtblogLSVe-23" target="at66AapSgeLtblogLSVe-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-31" value="Se Ajusta correctamente?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="67.5" y="650" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-6" source="at66AapSgeLtblogLSVe-25" target="at66AapSgeLtblogLSVe-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="77e6c97f196da883-6" source="at66AapSgeLtblogLSVe-31" target="at66AapSgeLtblogLSVe-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-36" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="20" y="740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="180" y="630" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-27" value="Predicción de rendimientos y precios futuros." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-6" vertex="1">
+          <mxGeometry x="70" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="77e6c97f196da883-6" source="at66AapSgeLtblogLSVe-31" target="at66AapSgeLtblogLSVe-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-27" target="at66AapSgeLtblogLSVe-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-49" target="at66AapSgeLtblogLSVe-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d0cee2;strokeColor=#56517e;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-41" target="at66AapSgeLtblogLSVe-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-7" value="Analista BI" style="swimlane;html=1;startSize=20;fillColor=#bac8d3;strokeColor=#23445d;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="760" y="20" width="270" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-39" value="Creación de gráficos y reportes financieros interactivos." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="77e6c97f196da883-7" vertex="1">
+          <mxGeometry x="87.5" y="490" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-41" value="Visualización de tendencias y predicciones mediante dashboards" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="77e6c97f196da883-7" vertex="1">
+          <mxGeometry x="87.5" y="850" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-7" source="at66AapSgeLtblogLSVe-39" target="at66AapSgeLtblogLSVe-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-17" value="Ingeniero de Software" style="swimlane;html=1;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;" parent="77e6c97f196da883-1" vertex="1">
+          <mxGeometry x="1030" y="20" width="260" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-53" value="Mantenimiento y Actualización" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="at66AapSgeLtblogLSVe-17" vertex="1">
+          <mxGeometry x="60" y="750" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-49" value="Verificación de la precisión de los modelos y resultados" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="at66AapSgeLtblogLSVe-17" vertex="1">
+          <mxGeometry x="55" y="572.5" width="140" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="at66AapSgeLtblogLSVe-17" source="at66AapSgeLtblogLSVe-49" target="at66AapSgeLtblogLSVe-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-52" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="at66AapSgeLtblogLSVe-17" vertex="1">
+          <mxGeometry x="185" y="640" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-57" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="at66AapSgeLtblogLSVe-17" vertex="1">
+          <mxGeometry x="100" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-60" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="at66AapSgeLtblogLSVe-17" vertex="1">
+          <mxGeometry x="65" y="860" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="at66AapSgeLtblogLSVe-17" source="at66AapSgeLtblogLSVe-53" target="at66AapSgeLtblogLSVe-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="at66AapSgeLtblogLSVe-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="77e6c97f196da883-1" source="77e6c97f196da883-12" target="77e6c97f196da883-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="230" as="sourcePoint" />
             <mxPoint x="20" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#6c8ebf;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;" parent="77e6c97f196da883-1" source="77e6c97f196da883-15" target="77e6c97f196da883-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="215" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-10" target="77e6c97f196da883-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="230" as="sourcePoint" />
-            <mxPoint x="240" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-10" target="at66AapSgeLtblogLSVe-10">
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-41" target="Y9lodNZrgHMY1zMylVd2-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-10" target="77e6c97f196da883-18">
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="77e6c97f196da883-1" source="Y9lodNZrgHMY1zMylVd2-1" target="77e6c97f196da883-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-7" value="Aplicación de Modelos de Machine Learning" style="swimlane;html=1;startSize=20;fillColor=#bac8d3;strokeColor=#23445d;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="760" y="20" width="310" height="940" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-7" source="at66AapSgeLtblogLSVe-23" target="at66AapSgeLtblogLSVe-25">
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-10" target="77e6c97f196da883-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-23" value="Entrenamiento de modelos predictivos: regresión, redes neuronales, árboles de decisión." style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="85" y="110" width="140" height="80" as="geometry" />
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-25" value="SI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-452" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="77e6c97f196da883-7" source="at66AapSgeLtblogLSVe-25" target="at66AapSgeLtblogLSVe-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-25" value="Validación y evaluación de modelos (cross-validation, metrics)." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="95" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-27" value="Predicción de rendimientos y precios futuros." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="95" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="77e6c97f196da883-7" source="at66AapSgeLtblogLSVe-31" target="at66AapSgeLtblogLSVe-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="77e6c97f196da883-7" source="at66AapSgeLtblogLSVe-31" target="at66AapSgeLtblogLSVe-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-31" value="Se Ajusta correctamente?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="102.5" y="360" width="105" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-35" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="200" y="420" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-36" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="85" y="430" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-15" value="Generación de Reportes y Visualizaciones" style="swimlane;html=1;startSize=20;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1070" y="20" width="250" height="940" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="at66AapSgeLtblogLSVe-15" source="at66AapSgeLtblogLSVe-39" target="at66AapSgeLtblogLSVe-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-39" value="Creación de gráficos y reportes financieros interactivos." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="at66AapSgeLtblogLSVe-15">
-          <mxGeometry x="50" y="495" width="135" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-41" value="Visualización de tendencias y predicciones mediante dashboards" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="at66AapSgeLtblogLSVe-15">
-          <mxGeometry x="50" y="600" width="135" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-19" target="at66AapSgeLtblogLSVe-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-27" target="at66AapSgeLtblogLSVe-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-49" target="at66AapSgeLtblogLSVe-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d0cee2;strokeColor=#56517e;" edge="1" parent="77e6c97f196da883-1" source="at66AapSgeLtblogLSVe-41" target="at66AapSgeLtblogLSVe-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-17" value="Mantenimiento y Actualización del Sistema" style="swimlane;html=1;startSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="77e6c97f196da883-1">
-          <mxGeometry x="1320" y="20" width="250" height="940" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-53" value="Mantenimiento y Actualización" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="at66AapSgeLtblogLSVe-17">
-          <mxGeometry x="60" y="850" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-49" value="Verificación de la precisión de los modelos y resultados" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="at66AapSgeLtblogLSVe-17">
-          <mxGeometry x="55" y="615" width="140" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="at66AapSgeLtblogLSVe-17" source="at66AapSgeLtblogLSVe-49" target="at66AapSgeLtblogLSVe-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-52" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="at66AapSgeLtblogLSVe-17">
-          <mxGeometry x="170" y="630" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-57" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="at66AapSgeLtblogLSVe-17">
-          <mxGeometry x="90" y="750" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="30" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="at66AapSgeLtblogLSVe-1" target="77e6c97f196da883-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="270" as="sourcePoint" />
-            <mxPoint x="110" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-60" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="720" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="at66AapSgeLtblogLSVe-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="at66AapSgeLtblogLSVe-53" target="at66AapSgeLtblogLSVe-60">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Y9lodNZrgHMY1zMylVd2-26" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-362" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
