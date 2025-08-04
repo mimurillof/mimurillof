@@ -5,7 +5,7 @@
 ### 📚 Educación
 - **Estadística:** 6 semestres en la **Universidad Nacional de Colombia** - Sede Bogotá.
 - **Software:** Programa de **Análisis y Desarrollo** en el **SENA**.
-- **Economía:** Estudios en la **UNAD** - Universidad Abierta y a Distancia.
+- **Ingenieria Industrial:** Estudios en la **UNAD** - Universidad Abierta y a Distancia.
 
 ### 💡 Pasión por la Ciencia de Datos
 Como **Sherlock Holmes** extraía detalles valiosos para resolver misterios, me dedico a la **Ciencia de Datos** para descubrir información significativa en los datos.
